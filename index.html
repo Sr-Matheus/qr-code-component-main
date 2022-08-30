@@ -17,10 +17,29 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
+    
+
     body
     {
       background-color: hsl(212, 45%, 89%);
       font-family: 'Outfit', sans-serif;
+    }
+
+    main
+    {
+      display: flex;
+      justify-content: center;
+    }
+
+    main > div
+    {
+      width: 300px;
+    }
+
+    img
+    {
+      border-radius: 4%;
+
     }
 
     p
@@ -29,8 +48,16 @@
     }
     div
     {
-      border-radius: 10%;
+      border-radius: 4%;
       background-color: hsl(0, 0%, 100%);
+
+    }
+
+    footer
+    {
+      position: fixed; 
+      bottom: 0;
+      width: 100%;
     }
 
     .attribution { font-size: 11px; text-align: center; }
@@ -38,16 +65,21 @@
   </style>
 </head>
 <body>
-
-  <div>
-    <img src="./images/image-qr-code.png">
-    <h1>Improve your front-end skills by building projects</h1>
-    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-  </div>
-    
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Matheus Moraes</a>.
-  </div>
+  
+  <main>
+    <div>
+      <img src="./images/image-qr-code.png" width="90%">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Sr-Matheus" target="_blank">Matheus Moraes</a>.
+    </div>
+  </footer>
+  
 </body>
 </html>
