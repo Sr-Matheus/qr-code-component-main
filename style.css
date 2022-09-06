@@ -44,7 +44,7 @@
     font-size: 15px;
     font-weight: 400;
     margin: 20px;
-    color: var(--dark-blue);
+    color: var(--grayish-blue);
     margin-bottom: 10%;
   }
   .content
@@ -55,7 +55,7 @@
 
   .container-image
   {
-    margin: 7% 2%;
+    margin-top: 4%;
     display: flex;
     justify-content: center;
   }
